@@ -3,7 +3,6 @@ import json
 import cv2
 from ultralytics import YOLO
 
-# Paths
 MODEL_PATH = "runs/detect/train2/weights/best.pt"
 INPUT_DIR = "input_images"
 OUTPUT_DIR = "output"
@@ -13,10 +12,8 @@ CONFIDENCE = 0.25
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(LOG_DIR, exist_ok=True)
 
-# Load model
 model = YOLO("runs/detect/train2/weights/best.pt")
 
-# Run inference
 results = model.predict(source=INPUT_DIR, conf=CONFIDENCE, save=True)
 
 for result in results:
@@ -45,5 +42,3 @@ for result in results:
     json_path = os.path.join(LOG_DIR, image_name.replace(".jpg", ".json"))
     with open(json_path, "w") as f:
         json.dump(json_data, f, indent=4)
-
-print("Detection complete. JSON logs saved in logs/")
