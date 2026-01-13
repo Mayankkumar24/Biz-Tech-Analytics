@@ -1,0 +1,15 @@
+{
+    "filename": "pexels-watorious-2381463.jpg",
+    "detections": [
+        {
+            "label": "Hand-in-Glove",
+            "confidence": 0.432,
+            "bbox": [
+                1789,
+                2160,
+                3192,
+                3166
+            ]
+        }
+    ]
+}

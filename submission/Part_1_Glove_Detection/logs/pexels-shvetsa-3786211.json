@@ -1,0 +1,15 @@
+{
+    "filename": "pexels-shvetsa-3786211.jpg",
+    "detections": [
+        {
+            "label": "Hand-in-Glove",
+            "confidence": 0.382,
+            "bbox": [
+                1470,
+                2122,
+                2777,
+                4068
+            ]
+        }
+    ]
+}

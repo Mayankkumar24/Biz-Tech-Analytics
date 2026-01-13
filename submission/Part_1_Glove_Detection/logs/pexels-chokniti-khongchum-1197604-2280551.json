@@ -1,0 +1,35 @@
+{
+    "filename": "pexels-chokniti-khongchum-1197604-2280551.jpg",
+    "detections": [
+        {
+            "label": "Hand-in-Glove",
+            "confidence": 0.884,
+            "bbox": [
+                350,
+                1669,
+                2127,
+                3984
+            ]
+        },
+        {
+            "label": "Hand-in-Glove",
+            "confidence": 0.44,
+            "bbox": [
+                3015,
+                56,
+                5575,
+                3390
+            ]
+        },
+        {
+            "label": "Hand-in-Glove",
+            "confidence": 0.408,
+            "bbox": [
+                1816,
+                1625,
+                4232,
+                3964
+            ]
+        }
+    ]
+}

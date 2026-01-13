@@ -1,0 +1,13 @@
+names:
+- Hand
+- Hand-in-Glove
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: gloved_hand-vs-bare_hand-5d9bg-hwqst
+  url: https://universe.roboflow.com/assessment-ftrxw/gloved_hand-vs-bare_hand-5d9bg-hwqst/dataset/2
+  version: 2
+  workspace: assessment-ftrxw
+test: ../test/images
+train: ../train/images
+val: ../valid/images

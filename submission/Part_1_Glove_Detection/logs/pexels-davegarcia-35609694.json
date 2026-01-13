@@ -1,0 +1,15 @@
+{
+    "filename": "pexels-davegarcia-35609694.jpg",
+    "detections": [
+        {
+            "label": "Hand-in-Glove",
+            "confidence": 0.326,
+            "bbox": [
+                134,
+                2617,
+                2760,
+                5960
+            ]
+        }
+    ]
+}
