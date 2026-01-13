@@ -1,0 +1,6 @@
+gloved_hand-vs-bare_hand-2/
+runs/
+input_images/
+venv/
+__pycache__/
+*.pt
