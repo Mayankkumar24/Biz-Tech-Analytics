@@ -1,7 +1,6 @@
 📄 README.md
 
 
-
 **Gloved vs Bare Hand Detection – Part 1**
 
 
